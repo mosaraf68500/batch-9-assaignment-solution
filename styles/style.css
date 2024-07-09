@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section styles start */
+.banner-container{
+    width: 1180px;
+    min-height: 520px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.4);
+    background-image: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 5px;
+    
+    
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 520px;
+}
+
+.banner-title{
+    font-size: 42px;
+    font-weight: 900px;
+    color: white;
+    
+}
+
+.banner-discription{
+    font-size: 28px;
+    font-weight:800px ;
+    color: white;
+  
+   
+}
+
+
+
+
+/* header section styles end */
+
+
+/* 65% section styles start */
+
+
+.second-section-container{
+    width: 720px;
+    height: 700px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.second-section-content h1{
+ color: rgb(255, 0, 0);
+ font-size: 54px;
+ font-weight: 800;
+ padding-bottom: 50px;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.second-section-content h3{
+color: rgb(7, 2, 17);
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 30px;
+}
+
+
+.second-section-content-image{
+ width: 720px;
+height: 400px;
+
+}
+/* 65% section styles end */
+
+
+
+/* wellcome section styls start */
+
+.wellcom-container{
+    width: 1180px;
+    height:520px ;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.4);
+    background-image: url('../images/Vectorrr.png');
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 50px;
+   
+}
+.wellcome-content-left{
+    width: 50%;
+    height: 520px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 50px 0 50px;
+}
+
+.wellcome-content-right{
+    width: 50%;
+    height: 520px;
+    /* border: 2px solid yellow; */
+
+}
+
+.wellcome-content-title{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 54px;
+font-weight: 900;
+}
+
+.wellcome-content-discription{
+color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-left: 40px;
+}
+
+
+    .wellcome-content-btn{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+margin-right: 290px;
+margin-top: 20px;
+background: none;
+border: none;
+    }
+
+    .wellcome-content-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px 0 50px;
+    }
+/* wellcome section styles end */
+
+/* hotel section styles start */
+
+.hotel-container{
+    width: 1180px;
+    height: 400px;
+    /* border:2px solid red; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hotel-container p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.hotel-span{
+color: red;
+font-size: 20px;
+font-weight: bold;
+}
+
+.hotel-btn{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+border-radius: 8px;
+border: none;
+/* padding: 16px; */
+
+background: rgb(255, 0, 0);
+
+margin: 40px;
+padding: 16px 20px 16px 20px;
+}
+/* hotel section styles end */
+
+/* comming soon styles start */
+.comming-soon-container{
+    width: 1180px;
+    height: 400px;
+    /* border: 2px solid red; */
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 70px;
+    /* justify-content: center;
+    align-items: center;
+} */
+}
+
+.comming-soon-content-left{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comming-soon-content-middle{
+    width: 350px;
+    height: 400px;
+}
+
+.comming-soon-content-right{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 100px;
+}
+
+.comming-soom-subtitle{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+}
+.comming-soom-title{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 900
+}
+.comming-soon-discription{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+
+.comming-soon-year{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+}
+/* comming soon styles end */
+
+
+/* holiday section style start */
+.holiday-container{
+    width: 1180px;
+    height: 850px;
+    border: 2px solid red;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+
+.holiday-head{
+    width: 950px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+.holiday-content-subtitle{
+   margin-top: 0px;
+
+   color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.holiday-content-title{
+   
+}
+.holiday-conten-discription{
+   
+}
+/* holiday section style end */
